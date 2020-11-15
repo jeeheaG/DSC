@@ -1,3 +1,4 @@
+//DSC 오프라인 모임 ES6문법 공부 때 코드
 //순차적으로 1,2가 출력.
 new Promise((resolve, reject) => {
     console.log(1)

@@ -1,3 +1,4 @@
+//DSC 오프라인 모임 ES6문법 공부 때 코드
 //console.log로 콘솔창에 출력해 실행 확인해볼 수 있음.
 //1)비구조화 할당 destructing
 const user = {
