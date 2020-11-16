@@ -40,6 +40,7 @@ class SignIn extends Component {
         return(
         <>
             <h1>회원가입</h1>
+            <form>
             <input 
                 type="text"
                 name="id"
@@ -79,7 +80,7 @@ class SignIn extends Component {
                 onChange={this.handleChange}
                 onKeyPress={this.handleKeyPress}>
             </input><br />
-            {/* 성별 */}
+            {/* 성별 <select><option> */}
             <input 
                 type="text"
                 name="phone"
@@ -89,6 +90,7 @@ class SignIn extends Component {
                 onKeyPress={this.handleKeyPress}>
             </input>
             <button onClick={this.handleSubmit}>회원가입</button>
+            </form>
         </>
         );
     }
